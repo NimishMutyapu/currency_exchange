@@ -78,6 +78,14 @@
             }
         }
 
+        function swapCurrencies() {
+            let fromCurrency = document.getElementById("fromCurrency");
+            let toCurrency = document.getElementById("toCurrency");
+            let tempValue = fromCurrency.value;
+            fromCurrency.value = toCurrency.value;
+            toCurrency.value = tempValue;
+        }
+
         async function convertCurrency() {
             let amount = document.getElementById("amount").value;
             let fromCurrency = document.getElementById("fromCurrency").value;

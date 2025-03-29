@@ -39,7 +39,7 @@ You can try the live version of this project [here](https://nimishmutyapu.github
    ```
 2. **Navigate to the project folder:**
    ```sh
-   cd Currency_Exchange
+   cd currency_Exchange
    ```
 3. **Open `index.html` in your browser.**
 

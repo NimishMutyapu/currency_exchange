@@ -24,6 +24,20 @@
             padding: 10px;
             width: 100%;
         }
+        .swap-button {
+            background-color: white; 
+            color: black;
+            border: none;
+            cursor: pointer;
+            width: 50px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: middle;
+            top: 5px; 
+        }
     </style>
 </head>
 <body>
@@ -32,6 +46,7 @@
         <input type="number" id="amount" placeholder="Enter amount">
         <h5>From Currency-> </h5>
         <select id="fromCurrency"></select>
+        <button class="swap-button" onclick="swapCurrencies()">⇄</button>
         <h5>To Currency-> </h5>
         <select id="toCurrency"></select>
         <button onclick="convertCurrency()">Convert</button>
